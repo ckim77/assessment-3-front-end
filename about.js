@@ -18,6 +18,11 @@ const pictureCompliment = event => {
 	alert('Why are you so beautiful');
 }
 
+// const removeAlert = evt => {
+// 	evt.target.alert = function() {};
+// }
+
 let ducko = document.getElementById("ducko");
 
 ducko.addEventListener('mouseover', pictureCompliment);
+// ducko.addEventListener("mouseout", removeAlert);

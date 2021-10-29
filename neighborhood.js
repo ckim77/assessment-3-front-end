@@ -12,5 +12,9 @@ const recommendRestaurant = (evt) => {
 
 
 
-recommendBtn.addEventListener('click',recommendRestaurant);
+// recommendBtn.addEventListener('click',recommendRestaurant);
 
+recommendBtn.addEventListener('click', () => {
+    let random = Math.floor(Math.random() * restArray.length);
+    restaurantInfo.textContent = restArray[random];
+})

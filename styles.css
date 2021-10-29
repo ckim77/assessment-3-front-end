@@ -36,3 +36,10 @@ input {
 img {
 	max-width: 300px;
 }
+
+.step-five {
+	background-color: yellow;
+	height: 50px;
+	width: 100px;
+	margin: 10px 10px
+}
